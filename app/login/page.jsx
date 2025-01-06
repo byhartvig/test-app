@@ -1,10 +1,10 @@
 import React from "react";
-import LoginForm from "@/components/loginForm";
+import LoginFormular from "./form";
 
 const LoginRoute = () => {
   return (
     <div className="h-screen flex items-center justify-center">
-      <LoginForm />
+      <LoginFormular />
     </div>
   );
 };

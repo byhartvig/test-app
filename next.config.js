@@ -6,10 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "cjosmujosbuqzspollro.supabase.co",
         port: "",
-        pathname: "/storage/v1/object/**",
+        pathname: "/storage/v1/object/public/**",
       },
     ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
